@@ -1,0 +1,80 @@
+#main{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(255, 255, 255);
+    border: 2px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.132);
+    border-radius: 10%;
+    margin: 0 auto;
+    transition: 1s;
+}
+#main:hover{
+    box-shadow: 16px 16px 20px rgba(0, 0, 0, 0.132);
+}
+
+p{
+    align-items: center;
+    display: flex;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 25px;
+}
+ img{
+   
+    border:2px solid skyblue;
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    margin-top: 1.4em;
+    margin-left: 4em;
+
+} 
+#data{
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 200px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+   
+}
+#profilepic{
+    height: 70px;
+    width: 200px;
+    background-color: #4071ec;
+    border-top-right-radius: 1.1em;
+    border-top-left-radius: 1.1em;
+    
+}
+button{
+    justify-content: center;
+    background-color: #4071ec;
+    color: whitesmoke;
+    border: #4071ec;
+    border-radius: 13px;
+    display: inline;
+    padding: 0 6px 0;
+    font-size: 10px;    
+    margin: 0px 1em 0px 2em;
+   
+
+}
+button:hover{
+    background-color: #265eed;
+}
+#small{
+        padding-top: 0px;
+        margin-bottom: 0px;
+        font-size: 6px;
+}
+#big{
+    font-size: 12px;
+}
+svg{
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

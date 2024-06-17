@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"poppins", sans-serif;
+}
+.main_box{
+    background-image:url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one i{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    transition: .3s ease-in-out;
+
+}
+.sidebar_menu{
+    position: fixed;
+    left: -350px;  
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow:0 0 10px rgba(255, 255, 255, .5);
+    transition: .4s linear;
+
+
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow:1px 1px 2px #ffffffa5;
+
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    color: #ffffff;
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    font-size: 25px;
+    position: absolute;
+    left: 225px;
+    line-height: 60px;
+    cursor: pointer;
+
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 10px 20px;
+    
+}
+.sidebar_menu .menu li i,a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu li i{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{ 
+   
+    left:25%;
+    bottom: 60px;
+    position: absolute;
+}
+.sidebar_menu .social_media i {
+    opacity: .5;
+    color: white;
+    padding: 0 5px;
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0px 0px 5px white;
+    
+}
+.sidebar_menu .social_media i:hover{
+    font-size: x-large;
+    transform: scale(1.3);
+    opacity: 1;
+}
+.sidebar_menu .social_media #youtube:hover{
+    color: red;
+}
+.sidebar_menu .social_media #facebook:hover{
+    color: 	#1877F2;
+}
+.sidebar_menu .social_media #twitter:hover{
+    color: 	#1DA1F2;
+}
+.sidebar_menu .social_media #instagram:hover{
+    color:magenta;
+}
+.btn_one:hover{
+    font-size: 33px;
+    
+}
+.btn_two i:hover{
+    font-size: 27px; 
+}
+#check:checked~.sidebar_menu{
+  left: 0;
+
+}
+#check:checked~.btn_one i{
+  opacity: 0;
+}

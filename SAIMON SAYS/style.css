@@ -1,0 +1,33 @@
+.container{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content:center;
+  margin: auto;
+}
+h1,h3{
+  text-align: center;
+}
+.btn{
+  border: 9px solid black;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  margin: 1.5rem;
+  
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.black{
+  background-color: #49462c;
+}
+.blue{
+  background-color: blue;
+}
+.flash{
+  background-color: white;
+}

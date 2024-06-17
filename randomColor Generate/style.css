@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+
+/* .clicker{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+} */
+.clr-show{
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  margin: auto
+}
